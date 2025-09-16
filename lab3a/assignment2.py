@@ -29,6 +29,5 @@ B =         [
 
 x = LA.solve(A, B)
 print(x)
-
 plt.spy(A)
 plt.show()
