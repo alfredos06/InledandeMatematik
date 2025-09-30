@@ -16,6 +16,6 @@ A = [np.cos(i), np.cos(j), np.cos(n), np.cos(i)]
 B = [np.sin(i), np.sin(j), np.sin(n), np.sin(i)]
 
 plt.plot(A, B, '-o')
-plt.fill(A, B, 'yellow')
+plt.fill(A, B, '#fff313')
 
 plt.show()
