@@ -9,11 +9,11 @@ for element in a:
 
 print('\nb)\n')
 
-b = range(1, 101)
+b = range(2, 101, 2)
 
-for i in b:
-    if i % 2 == 0:
-        print(i)
+for j in b:
+    print(j)
+
 
 print('\nc)\n')
 

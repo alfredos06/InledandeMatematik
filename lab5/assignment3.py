@@ -1,12 +1,13 @@
 import numpy as np
+
 def f(x): 
     return np.cos(x)-x
 
 def Df(x): 
     return -np.sin(x)-1
 
-
 x = 1
+
 for k in range(10):
     h = -f(x)/Df(x)
     x = x + h

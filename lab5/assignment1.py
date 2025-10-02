@@ -14,7 +14,7 @@ x = np.linspace(0, 15, 200)
 
 plt.plot(x, f(x))
 
-xprime0 = fsolve(fprime, 14)
+xprime0 = fsolve(fprime, 14.5)
 
 print(f'Maxvärde {xprime0}')
 
